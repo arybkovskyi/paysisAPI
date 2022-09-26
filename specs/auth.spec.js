@@ -1,7 +1,5 @@
 import {expect} from "chai";
 import supertest from 'supertest';
-import 'dotenv/config'
-
 describe('AUTH TESTS', () => {
 
     const request = supertest(process.env.BASE_URL)
